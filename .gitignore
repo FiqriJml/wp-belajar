@@ -1,0 +1,38 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+
+# WordPress config
+wp-config.php
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other files to ignore
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
+# Plugins
+wp-content/plugins/
+
+# Themes
+wp-content/themes/your-theme/node_modules/
+wp-content/themes/your-theme/vendor/
+
+# Cache
+wp-content/cache/
+wp-content/backup-*
+
+# Composer
+composer.lock
+vendor/
+
+# NPM
+node_modules/
